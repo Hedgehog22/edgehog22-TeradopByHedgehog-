@@ -1,0 +1,227 @@
+.air{
+    box-sizing: border-box;
+ background-color: #fc7e35;
+    width:900px;
+    padding:20px;
+    margin-left: 5%;
+    margin: 0 20% 0 18%;
+    position: absolute;
+    height: 600px;
+    box-shadow: #964003 1px 3px 13px 3px;
+    color: white;
+}
+
+.blh{ 
+    text-decoration: underline;
+    font-size: 0.3em;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+#sum{
+    width: 450px;
+   font-size: 0.2em;
+height: 50px;
+border: grey 2px solid;
+top: -200px;
+position: relative;
+}
+
+.lab {  
+    font-size: 0.2em;
+  }
+   #sog {
+    cursor: pointer;
+  }
+
+  .form-row-icon {
+    position: relative;
+    top: -190px;
+  }
+  .form-row-icon .fa {
+    position: absolute;
+    left: 135px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ffffff;
+    color: #E4E3DF;
+    border: grey 2px solid;
+  }
+  .form-row-icon input {
+    display: block;
+    width: 584px;
+    padding: 0 10px 0 50px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-width: 0;
+    background: #fff8f1;
+    left: 179px;
+    position: relative;
+    border-radius: 0%;
+    border: grey 2px solid;
+  }
+  .form-row-icon {
+    cursor: pointer;
+  }
+#bun{
+    font-size: 0.2em;
+ border: grey 2px solid;
+ top: -200px;
+ position: relative;
+   height: 50px;
+   width: 90px;
+   color: #777777;
+}
+
+#extra{
+    top: -190px;
+    position: relative;
+    width: 584px;
+    height: 50px;
+    border: grey 2px solid;
+}
+
+ .ch{
+    top: -170px;
+    left: 164px;
+    position: relative;
+    width: 584px;
+    text-align: center;
+    line-height: 5px;
+ }
+
+ .closing-button{
+     position: relative;
+     top:-170px;
+     width: 160px;
+     height: 50px;
+      text-decoration: none;
+ display: inline-block;
+ margin-top: 10px;
+ color: white;
+ box-shadow: 0 0 0 2px #ffbb00;
+ padding: 10px 0;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ position: relative;
+ overflow: hidden;
+ transition: .7s;
+ border: none; }  
+
+ .closing-button:hover {
+    background-image: linear-gradient(to right, #ff9100 0%, #f0cd30 51%, #efcc9e 100%);
+    box-shadow: 0 0 14px 3px #d13530;
+  }
+
+ .pa{
+     color: #1a65f0fd;
+     transition: 1s;
+ }
+
+ .pa:hover{
+     color: blue;
+ }
+
+ 
+
+ .lab #sog:checked ~ span {
+    background-color: #2eaadc;
+  }
+  .lab #sog:checked ~ span:after {
+    display:block;
+  }
+  .lab {
+    position: relative;  
+    padding-left:30px;  
+    cursor: pointer;
+  }
+   .lab #sog[type=checkbox] {
+    position: absolute;  
+     opacity: 0;
+    width:0; 
+    height:0;
+  }
+   label span {
+    position: absolute;
+     top:0;
+    left:0;
+    width:20px; 
+    height:20px;
+    background-color: #ddd;
+    transition: .3s;
+  }
+   label span:after {
+    content: "";
+    position: absolute;
+    display: none;
+      left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+  #email{
+      padding-left: 2px;
+      width: 546px;
+  }
+
+  .form-left-decoration, .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background: #fde664;
+    border-radius: 20px;
+ }
+ .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+ }
+ .form-right-decoration {
+    top: 70px;
+    right: -30px;
+ }
+ .form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    border-radius: 30px;
+    background: #d13530;
+ }
+ .form-left-decoration:before {
+    top: -20px;
+ }
+ .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+ }
+ .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+ }
+ .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+ }
+ .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+ }
+
+  
+ 
+ 
